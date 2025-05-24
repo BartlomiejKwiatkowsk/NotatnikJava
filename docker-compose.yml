@@ -1,0 +1,14 @@
+services:
+  postgres:
+    image: postgres:17
+    container_name: notatnik_postgres
+    environment:
+      POSTGRES_DB: notatnik
+      POSTGRES_USER: notatnik_user
+      POSTGRES_PASSWORD: 123
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+volumes:
+  pgdata:
