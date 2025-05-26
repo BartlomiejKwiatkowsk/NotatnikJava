@@ -9,4 +9,9 @@ public interface NoteService {
     List<Note> getNotesByUser(Long userId);
     Optional<Note> getNoteById(Long noteId);
     void deleteNote(Long noteId, Long userId);
+    // Dla admina: zwraca wszystkie notatki
+    List<Note> getAllNotes();
+
+    // Dla admina: usuwa dowolną notatkę po id
+    void deleteAnyNote(Long noteId);
 }
