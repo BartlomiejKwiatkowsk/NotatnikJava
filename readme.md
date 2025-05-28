@@ -101,7 +101,7 @@ Poniżej znajduje się diagram ERD przedstawiający strukturę i relacje bazy da
 
 ![DiagramERD.png](Screeny/DiagramERD.png)
 
-*Plik `notatnik-erd.png` dołączony jest w katalogu `docs` projektu.*
+*Plik `DiagramErd` dołączony jest w katalogu `Screeny` projektu.*
 
 ---
 
