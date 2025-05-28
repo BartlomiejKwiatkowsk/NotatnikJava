@@ -12,7 +12,7 @@ Ponadto, w celu zwiększenia elastyczności i zgodności z zasadami programowani
 Autentykacja w projekcie jest realizowana za pomocą **Spring Security**z wbudowaną pamięciową bazą użytkowników (In-Memory Authentication). Użytkownicy i ich role są zdefiniowani statycznie w konfiguracji, a dostęp do endpointów jest kontrolowany na podstawie przypisanych ról (RBAC).
 
 ### Technologie:
-- Java 21, Maven
+- Java 17, Maven
 - Spring Boot (REST API, Spring Security)
 - Hibernate + PostgreSQL (Docker)
 - Flyway do migracji bazy danych
